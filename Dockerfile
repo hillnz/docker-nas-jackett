@@ -1,5 +1,5 @@
 # renovate: datasource=docker depName=linuxserver/jackett versioning=regex:^v(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)-ls\d+$
-ARG JACKETT_VERSION=v0.20.772-ls59
+ARG JACKETT_VERSION=v0.20.775-ls60
 FROM linuxserver/jackett:${JACKETT_VERSION}
 
 COPY root/ /
